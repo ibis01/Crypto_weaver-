@@ -3,7 +3,6 @@ cat > quick_start.py << 'EOF'
 #!/usr/bin/env python3
 """
 CryptoWeaver AI - Quick Start Verification
-Run this to test if everything is set up correctly
 """
 
 import os
@@ -111,7 +110,7 @@ from pydantic_settings import BaseSettings
 from pydantic import SecretStr
 
 class Settings(BaseSettings):
-    TELEGRAM_BOT_TOKEN: SecretStr = SecretStr("YOUR_TOKEN_HERE")
+    TELEGRAM_BOT_TOKEN: SecretStr = SecretStr("8332574617:AAGSmL6KcwZ6pPdyF9SoTRm5X1t3y264CdQ")
     ENVIRONMENT: str = "development"
     
 settings = Settings()
